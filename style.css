@@ -43,32 +43,30 @@ header .nav-links {
   font-size: large;
 }
 
-
 .about {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	align-items: center;
-	gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
 }
 
 .about-img img {
-	height: auto;
-	max-width: 400px;
-	border-radius: 4px;
-	width: 100%;
+  height: auto;
+  max-width: 400px;
+  border-radius: 4px;
+  width: 100%;
   margin: 30px;
 }
 
 .about-content h4 {
-	margin: 10px 0;
-	font-size: 1.4rem;
-	font-weight: 600;
+  margin: 10px 0;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
-
 
 .about-content p {
-	line-height: 20px;
-	margin-bottom: 2rem;
-	font-weight: 500;
+  /* line-height: 20px;
+  margin-bottom: 2rem; */
+  float: left;
+  font-weight: 500;
 }
-
